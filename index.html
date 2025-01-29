@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Telegram Channel</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="header-bg">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+        <h1>Welcome to 𝙆𝙆™𝙏𝙀𝙉𝙉𝙄𝙎 𝙎𝙋𝙀𝘾𝙄𝘼𝙇</h1>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="square square-1"></div>
+                <div class="square square-2"></div>
+                <div class="square square-3"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Join, Play, Win!</h1>
+            <p>Join our Telegram channel for updates on our latest deals and promotions! Stay ahead of the game with real-time announcements and exclusive offers tailored just for you.</p>
+                <a href="https://t.me/+9iY--1VJTUI1NGY9" target="_blank">Join our Telegram Channel</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Game Highlights</h2>
+            <div class="videos">
+                <iframe src="video.mp4" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-options">
+            
+                <div class="contact-option">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>Have questions? Reach out to us on WhatsApp:</p>
+                    <a href="https://wa.me/918787000236" target="_blank" class="join-button"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+                </div>
+                <div class="contact-option">
+                    <i class="fab fa-facebook"></i>
+                    <p>Connect with us on Facebook:</p>
+                    <a href="https://www.facebook.com/share/p/15bQKzXy77/" target="_blank" class="facebook-button"><i class="fab fa-facebook-f"></i> Visit Facebook Page</a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script>
+        const animatedElements = document.querySelectorAll('[data-animate]');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                } else {
+                    entry.target.classList.remove('in-view');
+                }
+            });
+        });
+
+        animatedElements.forEach(el => observer.observe(el));
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
